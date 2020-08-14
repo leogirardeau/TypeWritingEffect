@@ -4,6 +4,8 @@ let index = 0;
 let currentText = "";
 let letter = "";
 
+
+//self invoke function
 (function type() {
 
     if (count === texts.length) {
@@ -18,5 +20,4 @@ let letter = "";
         index = 0;
     }
     setTimeout(type, 400);
-
 }())
